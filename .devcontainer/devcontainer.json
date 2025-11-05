@@ -1,0 +1,15 @@
+{
+  "name": "Rust Microservices DevContainer",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "settings": {
+    "rust-analyzer.cargo.runBuildScripts": true,
+    "rust-analyzer.checkOnSave.command": "clippy"
+  },
+  "extensions": [
+    "matklad.rust-analyzer",
+    "rust-lang.rust"
+  ],
+  "postCreateCommand": "cargo build",
+  "remoteUser": "vscode"
+}
