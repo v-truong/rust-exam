@@ -79,3 +79,48 @@ cargo make run
 * Acknowledgments
 - Inspired by the need for scalable, maintainable microservice architectures in Rust.
 - Built with love by the Rust community.
+Tuần 1: Rust cơ bản (Day 1–7)
+Day 1: Cài đặt Rust, Cargo, Rust Analyzer
+Cài đặt Rust:
+
+Truy cập rust-lang.org và làm theo hướng dẫn để cài đặt Rust bằng rustup.
+Cài đặt Cargo:
+
+Cargo sẽ được cài đặt tự động cùng với Rust.
+Cài đặt Rust Analyzer:
+
+Cài đặt Rust Analyzer qua Visual Studio Code hoặc theo hướng dẫn trên trang chính thức.
+Day 2: Ownership, Borrowing, Lifetimes
+Ownership:
+
+Tìm hiểu về nguyên tắc ownership trong Rust. Có 3 quy tắc cơ bản:
+Mỗi giá trị trong Rust đều có một owner.
+Chỉ có thể có một owner tại một thời điểm.
+Khi owner ra khỏi phạm vi, giá trị sẽ bị giải phóng.
+Borrowing:
+
+Tìm hiểu cách mượn giá trị bằng cách sử dụng tham chiếu (&).
+Lifetimes:
+
+Nắm rõ khái niệm về lifetimes để đảm bảo an toàn bộ nhớ.
+Bài tập: Viết hàm tính toán, quản lý bộ nhớ
+Viết một hàm tính tổng của một mảng số nguyên, đảm bảo rằng bạn sử dụng ownership và borrowing đúng cách.
+Day 3: Struct, Enum, Traits
+Struct:
+
+Tìm hiểu cách định nghĩa và sử dụng struct.
+Enum:
+
+Tìm hiểu cách định nghĩa và sử dụng enum.
+Day 4: Error handling (Result, Option)
+Tìm hiểu cách xử lý lỗi trong Rust bằng Result và Option.
+Bài tập: Tạo struct User, validate dữ liệu
+Tạo một struct User với các trường như tên và tuổi. Viết hàm để xác thực dữ liệu của user.
+Day 5: Collections (Vec, HashMap)
+Tìm hiểu về các collection như Vec và HashMap.
+Day 6: Pattern Matching
+Tìm hiểu về pattern matching trong Rust và cách sử dụng nó trong code.
+Bài tập: CRUD trong bộ nhớ
+Xây dựng một ứng dụng nhỏ để thực hiện các thao tác CRUD (Create, Read, Update, Delete) trên một Vec.
+Day 7: Giới thiệu async/await và Future
+Tìm hiểu khái niệm về async/await và Future trong Rust, chuẩn bị cho tuần tiếp theo.
